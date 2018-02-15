@@ -1,5 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
+const mocha = require('mocha');
+const describe = require('mocha').describe;
 
 const sum = require('./index');
 
